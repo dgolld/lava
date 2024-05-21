@@ -125,8 +125,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "studiodmass99@gmail.com"
+          git config user.name "dgolld"
 
       - name: Commit changes
         run: |
