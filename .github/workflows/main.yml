@@ -14,7 +14,7 @@ permissions:
   contents: write # Grants permissions to write to the repo
 
 env:
-  GIT_USER_EMAIL: studiodmass99@gmail.com
+  GIT_USER_EMAIL: studidmass99@gmail.com
   GIT_USER_NAME: dimasgeming
 
 jobs:
@@ -35,8 +35,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "studiodmass99@gmail.com"
-          git config user.name "dgolld"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -65,8 +65,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "studiodmass99@gmail.com"
-          git config user.name "dimasgeming"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -95,8 +95,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "studiodmass99@gmail.com"
-          git config user.name "dimasgeming"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -125,8 +125,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "studiodmass99@gmail.com"
-          git config user.name "dimasgeming"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
